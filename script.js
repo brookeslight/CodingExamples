@@ -2,7 +2,5 @@ const canvas = document.querySelector('.Canvas');
 const width = canvas.width = window.innerWidth;
 const height = canvas.height = window.innerHeight;
 const ctx = canvas.getContext('2d');
-ctx.fillStyle = 'rgba(255, 0, 255, 0.75)';
-for(var i = 0; i < 10; i++) {
-  ctx.fillRect(25+i, 100+i, 1, 1);
-}
+ctx.fillStyle = 'rgb(51, 84, 44)';
+ctx.fillRect(25, 100, 10, 10);
